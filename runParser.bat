@@ -1,0 +1,1 @@
+java -classpath libs/hsqldb-2.3.2.jar;libs/gson-2.3.jar;build/libs/CreditSwissGradle.jar com.cs.CreditSuisseLogParser  inputFiles/logfile.json

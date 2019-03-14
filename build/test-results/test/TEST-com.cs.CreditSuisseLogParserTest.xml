@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cs.CreditSuisseLogParserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-03-14T21:26:17" hostname="DESKTOP-F5B43U2" time="1.227">
+  <properties/>
+  <testcase name="testParser" classname="com.cs.CreditSuisseLogParserTest" time="1.227"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Mar 14, 2019 9:26:17 PM com.cs.CreditSuisseLogParserTest testParser
+INFO: >> testParser
+Mar 14, 2019 9:26:17 PM com.cs.CreditSuisseLogParser <init>
+INFO: >> CreditSuisseLogParser logfile src\test\resources\logfile.json, databaseName test/testDatabaseFile
+Mar 14, 2019 9:26:17 PM com.cs.CreditSuisseLogParser <init>
+INFO: processing logfile src\test\resources\logfile.json,
+Mar 14, 2019 9:26:17 PM com.cs.hsqldb.HsqlConnectionManager createJdbcConnection
+INFO: >> createJdbcConnection : databaseName test/testDatabaseFile
+Mar 14, 2019 9:26:17 PM com.cs.hsqldb.HsqlConnectionManager createJdbcConnection
+INFO: << createJdbcConnection : databaseName test/testDatabaseFile
+Mar 14, 2019 9:26:17 PM com.cs.hsqldb.HsqlConnectionManager createTable
+INFO: >> createTable : tableName = LOGRESULT
+Mar 14, 2019 9:26:17 PM com.cs.hsqldb.HsqlConnectionManager createTable
+INFO: The table already exists no need to create. TableName = LOGRESULT
+Mar 14, 2019 9:26:17 PM com.cs.CreditSuisseLogParser readStream
+INFO: >> readStream logfile src\test\resources\logfile.json
+Mar 14, 2019 9:26:17 PM com.cs.hsqldb.HsqlConnectionManager executeUpdateSql
+INFO: >> executeUpdateSql : sql INSERT INTO logresult VALUES ('scsmbstgra',5,'12345', 'APPLICATION_LOG', 1)
+Mar 14, 2019 9:26:17 PM com.cs.hsqldb.HsqlConnectionManager executeUpdateSql
+INFO: 1 rows updated / deleted
+Mar 14, 2019 9:26:17 PM com.cs.hsqldb.HsqlConnectionManager executeUpdateSql
+INFO: >> executeUpdateSql : sql INSERT INTO logresult VALUES ('scsmbstgrc',8,'', '', 1)
+Mar 14, 2019 9:26:17 PM com.cs.hsqldb.HsqlConnectionManager executeUpdateSql
+INFO: 1 rows updated / deleted
+Mar 14, 2019 9:26:17 PM com.cs.hsqldb.HsqlConnectionManager executeUpdateSql
+INFO: >> executeUpdateSql : sql INSERT INTO logresult VALUES ('scsmbstgrb',3,'', '', 0)
+Mar 14, 2019 9:26:17 PM com.cs.hsqldb.HsqlConnectionManager executeUpdateSql
+INFO: 1 rows updated / deleted
+Mar 14, 2019 9:26:17 PM com.cs.CreditSuisseLogParser readStream
+INFO: << readStream
+Mar 14, 2019 9:26:17 PM com.cs.hsqldb.HsqlConnectionManager closeJdbcConnection
+INFO: >> closeJdbcConnection 
+]]></system-err>
+</testsuite>
